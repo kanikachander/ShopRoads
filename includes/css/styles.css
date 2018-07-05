@@ -1,0 +1,105 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Kanika
+Updated: July 2018
+Notes:	 Hand coded for StackRoute
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+body {
+  font-family: 'Lato', sans-serif;
+}
+   .banner {
+  background-image: url("images/sale.jpg");
+  height:500px;
+  width:100%;
+}
+
+#kotak-logo, #icici-logo {
+  width:6rem;
+}
+
+#brands-logo {
+  width: 8rem;
+}
+
+ #watches-astron, #watches-prosprex {
+   width: 15rem;
+ }
+
+ #watches-presage {
+   width: 17rem;
+ }
+
+ .row {
+   margin-right: 0;
+   margin-left: 0;
+ }
+
+ .trending-image {
+   width: 15rem;
+ }
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#logo {
+  height: 30px;
+  padding-bottom: 0;
+  padding-right: 10px;
+  font-size: 15px;
+}
+  
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+   /* --------------------------------------
+   Footer
+   -------------------------------------- */
+#footer {
+  width:100%
+}
+
+.social-media {
+  text-decoration: none;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
