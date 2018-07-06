@@ -16,11 +16,6 @@ Notes:	 Hand coded for StackRoute
 body {
   font-family: 'Lato', sans-serif;
 }
-   .banner {
-  background-image: url("images/sale.jpg");
-  height:500px;
-  width:100%;
-}
 
 #kotak-logo, #icici-logo {
   width:6rem;
@@ -30,22 +25,20 @@ body {
   width: 8rem;
 }
 
- #watches-astron, #watches-prosprex {
-   width: 15rem;
- }
+#watches-astron, #watches-prosprex {
+  width: 10rem; 
+}
 
- #watches-presage {
-   width: 17rem;
- }
-
- .row {
+#watches-presage {
+  width: 14rem;
+}.row {
    margin-right: 0;
    margin-left: 0;
  }
 
- .trending-image {
+.trending-image {
    width: 15rem;
- }
+}
 
 /* --------------------------------------
    Typography
@@ -91,15 +84,29 @@ body {
    -------------------------------------- */
 
 /* Portrait & landscape phone */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
+  .card-body {
+  padding-left:7px;
+  }
 }
 
-/* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
-	
+@media (max-width: 1024px) {
+  #watches-astron, #watches-prosprex {
+    width: 15rem;
+  }
+ 
+  #watches-presage {
+    width: 20rem;
+  }
 }
 
 /* Large desktop */
-@media (min-width: 1200px) {
-	
+@media (max-width: 1440px) {
+  #watches-astron, #watches-prosprex {
+    width: 15rem;
+  }
+ 
+  #watches-presage {
+    width: 17rem;
+  }
 }
